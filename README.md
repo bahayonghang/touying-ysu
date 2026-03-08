@@ -1,21 +1,36 @@
-# Touying Slide Theme for Southeast University
+# Touying Slide Theme for Yanshan University
 
 [[中文]](./README.zh.md)
 
-SEU-styled slide themes and templates based on [Touying](https://touying-typ.github.io/touying/zh/)。
+This repository provides a Yanshan University-themed slide template for [Touying](https://touying-typ.github.io/touying/zh/) and Typst.
 
-## Themes
+## Included files
 
-So far, only a theme inspired by <https://github.com/TouchFishPioneer/SEU-Beamer-Slide> is provided. The example can be found in `examples/beamer-sms.typ`.
+- `themes/ysu-beamer.typ`: main theme file
+- `themes/assets/`: official YSU-inspired visual assets adapted for Typst
+- `examples/beamer-ysu.typ`: demo presentation
 
-Welcome to contribute more templates!
+## Quick start
+
+```typ
+#import "@preview/touying:0.6.1": *
+#import "themes/ysu-beamer.typ": *
+
+#show: ysu-theme.with(
+  config-info(
+    title: [Presentation Title],
+    author: [Your Name],
+    institution: [Yanshan University],
+    date: datetime.today(),
+  ),
+)
+
+#title-slide()
+#outline-slide()
+```
+
+See `README.zh.md` for the main documentation and `examples/beamer-ysu.typ` for a complete sample.
 
 ## License
 
 Licensed under the [MIT License](LICENSE).
-
-## See also
-
-- seu-thesis-typst by [TideDra](https://github.com/TideDra)：<https://github.com/TideDra/seu-thesis-typst>
-- SEU-Typst-Template by [csimide](https://github.com/csimide)：<https://github.com/csimide/SEU-Typst-Template>
-- seuthesis2024b by [Teddy-van-Jerry](https://github.com/Teddy-van-Jerry)：<https://github.com/Teddy-van-Jerry/seuthesis2024b>
