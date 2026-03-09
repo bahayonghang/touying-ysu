@@ -1,3 +1,6 @@
+// The starter content in this template file is additionally available under
+// MIT No Attribution. See LICENSE-MIT-0.txt and README.md for details.
+
 #import "@preview/touying-theme-ysu:0.1.0": *
 
 #show: ysu-theme.with(
@@ -8,7 +11,7 @@
     subtitle: [面向中文学术汇报的新版 Typst 幻灯片主题],
     author: [张三],
     institution: [燕山大学\\ 信息科学与工程学院],
-    date: [2026-03-08],
+    date: datetime.today(),
   ),
 )
 
