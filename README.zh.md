@@ -50,6 +50,16 @@
 typst compile examples/beamer-ysu.typ
 ```
 
+## 示例 PDF 截图
+
+仓库中已经提供了编译好的示例文件 [`examples/beamer-ysu.pdf`](./examples/beamer-ysu.pdf)，下面的截图直接取自该 PDF。
+
+| 封面页 | 双栏内容页 |
+| --- | --- |
+| ![封面页截图](./docs/screenshots/beamer-ysu-cover.png) | ![双栏内容页截图](./docs/screenshots/beamer-ysu-two-column.png) |
+
+![最小示例代码页截图](./docs/screenshots/beamer-ysu-minimal-example.png)
+
 ## 使用约定
 
 - 一级标题 `= 标题` 会触发自动分节页

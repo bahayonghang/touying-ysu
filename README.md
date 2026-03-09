@@ -29,6 +29,16 @@ This repository provides a Yanshan University-themed slide template for [Touying
 #outline-slide()
 ```
 
+## PDF Preview
+
+A compiled sample is available at [`examples/beamer-ysu.pdf`](./examples/beamer-ysu.pdf). The screenshots below are taken from that file.
+
+| Cover | Two-column layout |
+| --- | --- |
+| ![Cover slide preview](./docs/screenshots/beamer-ysu-cover.png) | ![Two-column layout preview](./docs/screenshots/beamer-ysu-two-column.png) |
+
+![Minimal example code slide preview](./docs/screenshots/beamer-ysu-minimal-example.png)
+
 See `README.zh.md` for the main documentation and `examples/beamer-ysu.typ` for a complete sample.
 
 ## License
