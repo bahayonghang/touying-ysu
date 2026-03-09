@@ -1,6 +1,6 @@
 # Touying Slide Theme for Yanshan University
 
-[[中文]](./README.zh.md)
+[[中文]](https://github.com/bahayonghang/touying-ysu/blob/main/README.zh.md)
 
 This repository provides a Yanshan University-themed slide template for [Touying](https://touying-typ.github.io/touying/zh/) and Typst.
 
@@ -26,7 +26,7 @@ The generated `main.typ` already imports:
 #import "@preview/touying-ysu:0.1.0": *
 ```
 
-For local testing before the package PR is merged, mirror the published `preview` layout under a local package path and reuse `--package-path`; the exact directory structure is documented in [`docs/typst-packages-pr-structure.md`](./docs/typst-packages-pr-structure.md).
+For local testing before the package PR is merged, mirror the published `preview` layout under a local package path and reuse `--package-path`; the exact directory structure is documented in [`docs/typst-packages-pr-structure.md`](https://github.com/bahayonghang/touying-ysu/blob/main/docs/typst-packages-pr-structure.md).
 
 ## Quick start
 
@@ -80,15 +80,14 @@ Repository demo source:
 
 ![Minimal example code slide preview](https://raw.githubusercontent.com/bahayonghang/touying-ysu/d19fe7c29f10d1b08a1148d4643c12641fa8ea3b/docs/screenshots/beamer-ysu-minimal-example.png)
 
-See `README.zh.md` for the main documentation and the repository demo link above for a complete sample.
+See [`README.zh.md`](https://github.com/bahayonghang/touying-ysu/blob/main/README.zh.md) for the main documentation and the repository demo link above for a complete sample.
 
 ## Licensing and Assets
 
 - Theme and library source files are released under the MIT License.
 - `LICENSE` preserves both the upstream QuadnucYard notice and the current Geekyhang notice because this repository adapts upstream work while shipping new YSU-specific source files under the same MIT terms.
 - The starter content in `template/main.typ` is additionally available under MIT No Attribution; see [`LICENSE-MIT-0.txt`](./LICENSE-MIT-0.txt).
-- University-branded assets in `themes/assets/ysu-*` are not covered by the SPDX license expression in `typst.toml`; see [`ASSETS.md`](./ASSETS.md) for the file inventory, source links, transformation notes, and reviewer guidance.
-- When submitting to Typst Universe, include a short reviewer note that the package keeps only the theme-required `ysu-*` assets and that their provenance and reuse boundary are documented in [`ASSETS.md`](./ASSETS.md).
+- University-branded assets in `themes/assets/ysu-*` are not covered by the SPDX license expression in `typst.toml`; see [`ASSETS.md`](https://github.com/bahayonghang/touying-ysu/blob/main/ASSETS.md) for the file inventory, source links, transformation notes, and reviewer guidance.
 
 ## License
 
