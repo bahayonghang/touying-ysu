@@ -15,7 +15,7 @@ This repository provides a Yanshan University-themed slide template for [Touying
 Once this package is published to Typst Universe, initialize a new deck with:
 
 ```bash
-typst init @preview/touying-theme-ysu:0.1.0 my-slides
+typst init @preview/touying-ysu:0.1.0 my-slides
 cd my-slides
 typst compile main.typ
 ```
@@ -23,7 +23,7 @@ typst compile main.typ
 The generated `main.typ` already imports:
 
 ```typ
-#import "@preview/touying-theme-ysu:0.1.0": *
+#import "@preview/touying-ysu:0.1.0": *
 ```
 
 For local testing before the package PR is merged, mirror the published `preview` layout under a local package path and reuse `--package-path`; the exact directory structure is documented in [`docs/typst-packages-pr-structure.md`](./docs/typst-packages-pr-structure.md).
@@ -33,7 +33,7 @@ For local testing before the package PR is merged, mirror the published `preview
 After publication, import the package directly:
 
 ```typ
-#import "@preview/touying-theme-ysu:0.1.0": *
+#import "@preview/touying-ysu:0.1.0": *
 
 #show: ysu-theme.with(
   config-info(
@@ -70,15 +70,15 @@ typst compile --root . examples/beamer-ysu.typ
 - `themes/assets/`: official YSU-inspired visual assets adapted for Typst
 
 Repository demo source:
-<https://github.com/bahayonghang/touying-theme-ysu/blob/main/examples/beamer-ysu.typ>
+<https://github.com/bahayonghang/touying-ysu/blob/main/examples/beamer-ysu.typ>
 
 ## Preview
 
 | Cover | Two-column layout |
 | --- | --- |
-| ![Cover slide preview](https://raw.githubusercontent.com/bahayonghang/touying-theme-ysu/d19fe7c29f10d1b08a1148d4643c12641fa8ea3b/docs/screenshots/beamer-ysu-cover.png) | ![Two-column layout preview](https://raw.githubusercontent.com/bahayonghang/touying-theme-ysu/d19fe7c29f10d1b08a1148d4643c12641fa8ea3b/docs/screenshots/beamer-ysu-two-column.png) |
+| ![Cover slide preview](https://raw.githubusercontent.com/bahayonghang/touying-ysu/d19fe7c29f10d1b08a1148d4643c12641fa8ea3b/docs/screenshots/beamer-ysu-cover.png) | ![Two-column layout preview](https://raw.githubusercontent.com/bahayonghang/touying-ysu/d19fe7c29f10d1b08a1148d4643c12641fa8ea3b/docs/screenshots/beamer-ysu-two-column.png) |
 
-![Minimal example code slide preview](https://raw.githubusercontent.com/bahayonghang/touying-theme-ysu/d19fe7c29f10d1b08a1148d4643c12641fa8ea3b/docs/screenshots/beamer-ysu-minimal-example.png)
+![Minimal example code slide preview](https://raw.githubusercontent.com/bahayonghang/touying-ysu/d19fe7c29f10d1b08a1148d4643c12641fa8ea3b/docs/screenshots/beamer-ysu-minimal-example.png)
 
 See `README.zh.md` for the main documentation and the repository demo link above for a complete sample.
 

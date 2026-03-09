@@ -1,12 +1,12 @@
 [package]
-name = "touying-theme-ysu"
+name = "touying-ysu"
 version = "0.1.0"
 entrypoint = "lib.typ"
 compiler = "0.14.0"
 authors = ["Geekyhang <@bahayonghang>"]
 license = "MIT AND MIT-0"
 description = "Yanshan University slides with Touying."
-repository = "https://github.com/bahayonghang/touying-theme-ysu"
+repository = "https://github.com/bahayonghang/touying-ysu"
 keywords = ["slides", "presentation", "touying", "beamer", "ysu", "yanshan-university"]
 categories = ["presentation"]
 exclude = [

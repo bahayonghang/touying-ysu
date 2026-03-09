@@ -7,7 +7,7 @@ This note records the release-oriented directory layout and checklist to submit 
 ```text
 packages/
   preview/
-    touying-theme-ysu/
+    touying-ysu/
       0.1.0/
 ```
 
@@ -16,7 +16,7 @@ packages/
 ```text
 packages/
   preview/
-    touying-theme-ysu/
+    touying-ysu/
       0.1.0/
         README.md
         LICENSE
@@ -51,12 +51,12 @@ The `exclude` section in `typst.toml` should continue to keep them out of the pa
 ## Local preview testing
 
 1. Create a local package root.
-2. Mirror the `packages/preview/touying-theme-ysu/0.1.0/` layout under that root.
+2. Mirror the `packages/preview/touying-ysu/0.1.0/` layout under that root.
 3. Copy the release files listed above into the local preview package directory.
 4. Run:
 
 ```powershell
-typst init --package-path <local-package-root> @preview/touying-theme-ysu:0.1.0 <target-dir>
+typst init --package-path <local-package-root> @preview/touying-ysu:0.1.0 <target-dir>
 typst compile --package-path <local-package-root> <target-dir>\main.typ
 ```
 
