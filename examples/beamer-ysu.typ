@@ -1,4 +1,4 @@
-#import "@preview/touying:0.6.2": *
+#import "@preview/touying:0.6.3": *
 #import "/themes/ysu-beamer.typ": *
 
 #show: ysu-theme.with(
@@ -109,7 +109,7 @@
 
 #tblock(title: [推荐写法])[
   ```typ
-  #import "@preview/touying:0.6.2": *
+  #import "@preview/touying:0.6.3": *
   #import "themes/ysu-beamer.typ": *
 
   #show: ysu-theme.with(

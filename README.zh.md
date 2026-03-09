@@ -6,7 +6,7 @@
 
 ## 特性
 
-- 基于 `Typst 0.14.x` 与 `@preview/touying:0.6.2`
+- 基于 `Typst 0.14.x` 与 `@preview/touying:0.6.3`
 - 使用燕山大学官方公开校名、校徽与蓝色视觉体系
 - 提供封面页、目录页、分节页、顶部导航、页脚、进度条与信息块
 - 默认适配中文学术汇报、课程展示、组会与答辩预演
@@ -14,8 +14,8 @@
 ## 依赖环境
 
 - Typst `0.14.x`
-- `@preview/touying:0.6.2`
-- `@preview/cuti:0.2.1`
+- `@preview/touying:0.6.3`
+- `@preview/cuti:0.4.0`
 
 ## 使用 `typst init` 初始化模板
 
@@ -60,7 +60,7 @@ typst compile main.typ
 如果你是直接克隆仓库并在源码树里使用，也可以继续导入主题文件：
 
 ```typ
-#import "@preview/touying:0.6.2": *
+#import "@preview/touying:0.6.3": *
 #import "themes/ysu-beamer.typ": *
 ```
 

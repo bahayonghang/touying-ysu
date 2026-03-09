@@ -1,7 +1,7 @@
 // Yanshan University Touying theme
 
-#import "@preview/touying:0.6.2": *
-#import "@preview/cuti:0.2.1": show-cn-fakebold
+#import "@preview/touying:0.6.3": *
+#import "@preview/cuti:0.4.0": show-cn-fakebold
 
 #let _wordmark(white: false, height: 0.8em) = image(
   if white {

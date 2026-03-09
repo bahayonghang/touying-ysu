@@ -7,8 +7,8 @@ This repository provides a Yanshan University-themed slide template for [Touying
 ## Requirements
 
 - Typst `0.14.x`
-- `@preview/touying:0.6.2`
-- `@preview/cuti:0.2.1`
+- `@preview/touying:0.6.3`
+- `@preview/cuti:0.4.0`
 
 ## Initialize with `typst init`
 
@@ -51,7 +51,7 @@ After publication, import the package directly:
 To work directly from a cloned repository, import the theme file instead:
 
 ```typ
-#import "@preview/touying:0.6.2": *
+#import "@preview/touying:0.6.3": *
 #import "themes/ysu-beamer.typ": *
 ```
 
