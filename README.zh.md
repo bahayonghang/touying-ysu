@@ -22,7 +22,7 @@
 这个模板进入 Typst Universe 之后，可以直接这样初始化：
 
 ```powershell
-typst init @preview/touying-theme-ysu:0.1.0 my-slides
+typst init @preview/simply-ysu-touying:0.1.0 my-slides
 Set-Location my-slides
 typst compile main.typ
 ```
@@ -30,7 +30,7 @@ typst compile main.typ
 初始化生成的 `main.typ` 会直接导入：
 
 ```typ
-#import "@preview/touying-theme-ysu:0.1.0": *
+#import "@preview/simply-ysu-touying:0.1.0": *
 ```
 
 在官方包 PR 合并前，如需本地联调，可先按发布后的 `preview` 目录结构准备本地包，再在命令里复用 `--package-path`；具体目录布局见 [`docs/typst-packages-pr-structure.md`](./docs/typst-packages-pr-structure.md)。
@@ -40,7 +40,7 @@ typst compile main.typ
 模板发布后，推荐直接按包方式导入：
 
 ```typ
-#import "@preview/touying-theme-ysu:0.1.0": *
+#import "@preview/simply-ysu-touying:0.1.0": *
 
 #show: ysu-theme.with(
   config-info(
@@ -79,7 +79,7 @@ typst compile --root . examples/beamer-ysu.typ
 - `themes/assets/`：燕山大学视觉资源与衍生位图
 
 仓库示例源码：
-<https://github.com/bahayonghang/touying-theme-ysu/blob/main/examples/beamer-ysu.typ>
+[`examples/beamer-ysu.typ`](./examples/beamer-ysu.typ)
 
 ## 预览图
 

@@ -7,7 +7,7 @@ This note records the release-oriented directory layout and checklist to submit 
 ```text
 packages/
   preview/
-    touying-theme-ysu/
+    simply-ysu-touying/
       0.1.0/
 ```
 
@@ -16,7 +16,7 @@ packages/
 ```text
 packages/
   preview/
-    touying-theme-ysu/
+    simply-ysu-touying/
       0.1.0/
         README.md
         LICENSE
@@ -51,12 +51,12 @@ The `exclude` section in `typst.toml` should continue to keep them out of the pa
 ## Local preview testing
 
 1. Create a local package root.
-2. Mirror the `packages/preview/touying-theme-ysu/0.1.0/` layout under that root.
+2. Mirror the `packages/preview/simply-ysu-touying/0.1.0/` layout under that root.
 3. Copy the release files listed above into the local preview package directory.
 4. Run:
 
 ```powershell
-typst init --package-path <local-package-root> @preview/touying-theme-ysu:0.1.0 <target-dir>
+typst init --package-path <local-package-root> @preview/simply-ysu-touying:0.1.0 <target-dir>
 typst compile --package-path <local-package-root> <target-dir>\main.typ
 ```
 
@@ -64,7 +64,7 @@ typst compile --package-path <local-package-root> <target-dir>\main.typ
 
 - Keep the submitted package minimal and release-focused.
 - If any published file changes after submission, bump the package version before sending a new PR.
-- Keep the current package name only if you are prepared to justify it to reviewers as a continuity choice for an existing repository and template identity.
+- Use the confirmed package name `simply-ysu-touying` consistently in release artifacts and submission notes.
 - `lib.typ` remains the package entrypoint.
 - `template/main.typ` is used by `typst init`.
 - `thumbnail.png` is the package preview image and must not be referenced by package files.
